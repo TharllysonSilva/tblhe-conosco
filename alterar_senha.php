@@ -12,7 +12,7 @@ $codigo = $array['codigo'];
 $senha_old = $array['senha'];
 $data_atualizacao=(new \DateTime())->format('Y-m-d');
 
-$query = "UPDATE agenda SET senha='$senha', email='$email', data_atualizacao='$data_atualizacao' WHERE codigo='$codigo'";
+$query = "UPDATE FCO_agenda SET senha='$senha', email='$email', data_atualizacao='$data_atualizacao' WHERE codigo='$codigo'";
 $email = filter_var($email, FILTER_SANITIZE_EMAIL);
 
 if (filter_var($email, FILTER_VALIDATE_EMAIL)){

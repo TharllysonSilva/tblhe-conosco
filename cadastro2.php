@@ -5,8 +5,8 @@ $senha      = $_POST['senha'];
 $senha2     = $_POST['senha2'];
 $email      = $_POST['email'];
 $connect    = mysqli_connect('localhost','user_cv','');
-$db         = mysqli_select_db($connect,'trabalheconosco');
-$query_select = "SELECT usuario FROM agenda WHERE usuario = '$login'";
+$db         = mysqli_select_db($connect,'FCO_trabalheconosco');
+$query_select = "SELECT usuario FROM FCO_agenda WHERE usuario = '$login'";
 $select     = mysqli_query($connect,$query_select);
 $array      = mysqli_fetch_array($select);
 $logarray   = $array['login'];
@@ -29,7 +29,7 @@ if (filter_var($email, FILTER_VALIDATE_EMAIL)){
                     echo"<script language='javascript' type='text/javascript'>alert('Esse login já existe');window.location.href='cadastro.php';</script>";
                     die();
                 }else{
-                    $query = "INSERT INTO agenda (nome,usuario,senha,email,data_cadastro) VALUES ('$nome','$login','$senha','$email','$data_cadastro')";
+                    $query = "INSERT INTO FCO_agenda (nome,usuario,senha,email,data_cadastro) VALUES ('$nome','$login','$senha','$email','$data_cadastro')";
                     $insert = mysqli_query($connect,$query);    
                     if($insert){
                         echo"<script language='javascript' type='text/javascript'>alert('Usuário $login cadastrado com sucesso!');window.location.href='index.php'</script>";          
