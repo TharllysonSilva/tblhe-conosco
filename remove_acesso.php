@@ -25,7 +25,7 @@ include "conexao.php";
 /*
 	cria o comando SQL para eclusão de registro na tabela agenda
 */ 
-$sql = "update agenda set usuario='', senha='', data_exclusao='$data_exclusao' where codigo='$codigo'";
+$sql = "update FCO_agenda set usuario='', senha='', data_exclusao='$data_exclusao' where codigo='$codigo'";
  
 
 /*
