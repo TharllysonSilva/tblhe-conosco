@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: 06-Dez-2017 às 14:04
+-- Generation Time: 22-Set-2021 às 14:04
 -- Versão do servidor: 5.7.20-0ubuntu0.16.04.1
 -- PHP Version: 7.0.22-0ubuntu0.16.04.1
 
