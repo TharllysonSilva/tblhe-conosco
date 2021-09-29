@@ -19,9 +19,9 @@ SET time_zone = "+00:00";
 --
 -- Database: `FCO_trabalheconosco`
 --
-DROP DATABASE `FCO_trabalheconosco`;
-CREATE DATABASE IF NOT EXISTS `FCO_trabalheconosco` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-USE `FCO_trabalheconosco`;
+DROP DATABASE `trabalheconosco`;
+CREATE DATABASE IF NOT EXISTS `trabalheconosco` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `trabalheconosco`;
 
 -- --------------------------------------------------------
 
