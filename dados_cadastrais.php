@@ -600,8 +600,8 @@
 <div class="form-group col-sm-12">
     
     <?php
-        //echo (new \DateTime())->format('Y-m-d');
-            
+        //echo (new \DateTime())->format('Y-m-d') ;
+            //formato Americano
     ?>
     
     <div class="form-group col-xs-12"> 
