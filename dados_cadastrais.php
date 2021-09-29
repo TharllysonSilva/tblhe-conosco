@@ -1,7 +1,7 @@
 <div>
 <?php
 
-/* Dados do questionario profissional  */
+/* Dados do questionario profissional/ salvando no Banco  */
     $query_update=""; 
     $query_update =$query_update."nome='$nome'";
     if(!empty($cpf))                {$query_update =$query_update.", cpf='$cpf'";}
