@@ -86,7 +86,7 @@
                         -->
                     </div>
                 </div>                                 
-                        <!-- Aqui entra o conte�do da p�gina -->
+                        <!-- Aqui entra o conteúdo da página -->
                 </br>            
                 <br/><br/><br/>
             </div>    
