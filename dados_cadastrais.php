@@ -457,6 +457,7 @@
                     <?php include 'idiomas_form.php';?>                    
                 </select>
             </div>
+            <!--Linguas e nivel de fluencia de cada candidato-->
         </div>
         <div class="col-sm-6 itemformulario">
             <label class="col-sm-4 control-label">Leitura:</label>
