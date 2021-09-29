@@ -7,7 +7,7 @@
     
     include "conexao.php";
     $usuario = $_SESSION['usuarioLogin'];
-    $sql = "SELECT email,senha FROM agenda WHERE usuario = '$usuario'";
+    $sql = "SELECT email,senha FROM FCO_agenda WHERE usuario = '$usuario'";
     $resultado = mysqli_query($conexao,$sql);
     $linha = mysqli_fetch_array($resultado);
     $email = $linha["email"];
