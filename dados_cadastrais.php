@@ -1,5 +1,7 @@
 <div>
 <?php
+
+/* Dados do questionario profissional  */
     $query_update=""; 
     $query_update =$query_update."nome='$nome'";
     if(!empty($cpf))                {$query_update =$query_update.", cpf='$cpf'";}
@@ -62,6 +64,7 @@
 
 </div>
 
+<!--Dados pessoais de cada candidato-->
 
 <div class="form-group col-sm-12 formulariobkgrd">        
     <legend>Dados Pessoais</legend>
