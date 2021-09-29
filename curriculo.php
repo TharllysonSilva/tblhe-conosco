@@ -142,7 +142,7 @@
                         */
                         include "conexao.php";
                             $usuario = $_SESSION['usuarioLogin'];
-                            $sql = "SELECT codigo FROM agenda WHERE usuario = '$usuario'";
+                            $sql = "SELECT codigo FROM FCO_agenda WHERE usuario = '$usuario'";
                             $resultado = mysqli_query($conexao,$sql);
                             $linha = mysqli_fetch_array($resultado);
                             $codigo = $linha["codigo"];

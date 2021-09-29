@@ -6,7 +6,7 @@
 $servidor = "localhost";
 $usuario  = "user_cv";
 $senha    = "";
-$banco    = "FCO_trabalheconosco";
+$banco    = "trabalheconosco";
 $tabela   = "FCO_agenda";
 $_SG['servidor'] = $servidor;
 $_SG['usuario'] = $usuario;
