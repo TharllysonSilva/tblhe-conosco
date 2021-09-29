@@ -124,7 +124,7 @@
                         */
                         //$sql = "SELECT codigo,nome from agenda ORDER BY nome";
                         $usuario = $_SESSION['usuarioLogin'];
-                        $sql = "SELECT codigo,nome FROM agenda WHERE usuario = '$usuario'";
+                        $sql = "SELECT codigo,nome FROM FCO_agenda WHERE usuario = '$usuario'";
                         /* 
                             executa o comando SQL inserido na variável string $sql. Coloca o 
                             resultado na variável $resultado. Nesse caso, a variável contém 

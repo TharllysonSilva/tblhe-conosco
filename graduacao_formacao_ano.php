@@ -70,5 +70,6 @@ echo '
                     <option value="1962">1962</option>
                     <option value="1961">1961</option>
                     <option value="1960">1960</option>
+                    <option value="1960">1959</option>
                     ';
 ?>

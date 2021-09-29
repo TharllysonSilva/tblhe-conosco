@@ -5,7 +5,7 @@
 	na variável $codigo
 */
 
-$sql = "SELECT * from agenda WHERE codigo=" . $codigo;
+$sql = "SELECT * from FCO_agenda WHERE codigo=" . $codigo;
 
 /* 
    	executa o comando SQL inserido na variável string $sql. Coloca o 
