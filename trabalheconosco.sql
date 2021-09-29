@@ -19,9 +19,9 @@ SET time_zone = "+00:00";
 --
 -- Database: `trabalheconosco`
 --
-DROP DATABASE `trabalheconosco`;
-CREATE DATABASE IF NOT EXISTS `trabalheconosco` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-USE `trabalheconosco`;
+DROP DATABASE `FCO_trabalheconosco`;
+CREATE DATABASE IF NOT EXISTS `FCO_trabalheconosco` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `FCO_trabalheconosco`;
 
 -- --------------------------------------------------------
 
@@ -29,8 +29,8 @@ USE `trabalheconosco`;
 -- Estrutura da tabela `agenda`
 --
 
-DROP TABLE IF EXISTS `agenda`;
-CREATE TABLE `agenda` (
+DROP TABLE IF EXISTS `FCO_agenda`;
+CREATE TABLE `FCO_agenda` (
   `codigo` int(11) NOT NULL,
   `nome` varchar(80) NOT NULL,
   `usuario` varchar(50) NOT NULL,
@@ -100,7 +100,7 @@ CREATE TABLE `agenda` (
 -- Extraindo dados da tabela `agenda`
 --
 
-INSERT INTO `agenda` (`codigo`, `nome`, `usuario`, `senha`, `email`, `data_cadastro`, `data_atualizacao`, `data_exclusao`, `rua`, `numero`, `complemento`, `bairro`, `cidade`, `cep`, `data_nascimento`, `cpf`, `nome_mae`, `nome_pai`, `nacionalidade`, `genero`, `objetivo_prof`, `estado_civil`, `possui_filhos`, `deficiencia`, `telefone`, `celular`, `linkedin`, `facebook`, `outros_sites`, `area_interesse1`, `area_interesse2`, `area_interesse3`, `aceita_viajar`, `aceita_mudar`, `turnos_interesse`, `regiao_distancia`, `pret_salarial`, `resumo_profissional`, `nivel_escolaridade`, `gradu1_nome_curso`, `gradu2_nome_curso`, `gradu1_instituto`, `gradu2_instituto`, `gradu1_nivel`, `gradu2_nivel`, `gradu1_forma_mes`, `gradu1_forma_ano`, `gradu2_forma_mes`, `gradu2_forma_ano`, `idioma1`, `idioma2`, `idioma1_leitura`, `idioma2_leitura`, `idioma1_escrita`, `idioma2_escrita`, `idioma1_dialoga`, `idioma2_dialoga`, `ult_emp_salario`, `ult_emp_beneficio`, `ult_emp_empresa`, `ult_emp_cargo`, `ult_emp_data_contrat`, `ult_emp_data_demiss`) VALUES
+INSERT INTO `FCO_agenda` (`codigo`, `nome`, `usuario`, `senha`, `email`, `data_cadastro`, `data_atualizacao`, `data_exclusao`, `rua`, `numero`, `complemento`, `bairro`, `cidade`, `cep`, `data_nascimento`, `cpf`, `nome_mae`, `nome_pai`, `nacionalidade`, `genero`, `objetivo_prof`, `estado_civil`, `possui_filhos`, `deficiencia`, `telefone`, `celular`, `linkedin`, `facebook`, `outros_sites`, `area_interesse1`, `area_interesse2`, `area_interesse3`, `aceita_viajar`, `aceita_mudar`, `turnos_interesse`, `regiao_distancia`, `pret_salarial`, `resumo_profissional`, `nivel_escolaridade`, `gradu1_nome_curso`, `gradu2_nome_curso`, `gradu1_instituto`, `gradu2_instituto`, `gradu1_nivel`, `gradu2_nivel`, `gradu1_forma_mes`, `gradu1_forma_ano`, `gradu2_forma_mes`, `gradu2_forma_ano`, `idioma1`, `idioma2`, `idioma1_leitura`, `idioma2_leitura`, `idioma1_escrita`, `idioma2_escrita`, `idioma1_dialoga`, `idioma2_dialoga`, `ult_emp_salario`, `ult_emp_beneficio`, `ult_emp_empresa`, `ult_emp_cargo`, `ult_emp_data_contrat`, `ult_emp_data_demiss`) VALUES
 (12, 'RAPHAEL MATHEUS PEREIRA', 'raphael', '123', 'raphaelmatheus.exp@gmail.com', '2017-11-01', '2017-12-06', '2017-12-06', 'Rua A', 0, 'Guarda Mor', 'Ãgua Limpa', 'Volta Redonda', '27250260', '1993-10-07', '08691131608', 'ELAINE DE FATIMA', 'RONALDO LUIZ PEREIRA', 1, 1, '                             Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget. Suco de cevadiss, Ã© um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.\r\n\r\nIn elementis mÃ© pra quem Ã© amistosis quis leo. Paisis, filhis, espiritis santis. Si num tem leite entÃ£o bota uma pinga aÃ­ cumpadi! Todo mundo vÃª os porris que eu tomo, mas ninguÃ©m vÃª os tombis que eu levo!\r\n\r\nCasamentiss faiz malandris se pirulitÃ¡. Atirei o pau no gatis, per gatis num morreus. Leite de capivaris, leite de mula manquis sem cabeÃ§a. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.\r\n\r\nInteragi no mÃ©, cursus quis, vehicula ac nisi. Si u mundo tÃ¡ muito paradis? Toma um mÃ© que o mundo vai girarzis! Suco de cevadiss deixa as pessoas mais interessantis. MÃ© faiz elementum girarzis, nisi eros vermeio.\r\n\r\nAenean aliquam molestie leo, vitae iaculis nisl. Em pÃ© sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Delegadis gente finis, bibendum egestas augue arcu ut est. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi.                             ', 1, 0, 0, '2433475246', '24981495685', '', 'facebook.com/raphaelpereira.ph', 'weqweqweq', 10, 1, 5, 0, 0, '2', 100, '1231200', 'TÃ¡ deprimidis, eu conheÃ§o uma cachacis que pode alegrar sua vidis. Si u mundo tÃ¡ muito paradis? Toma um mÃ© que o mundo vai girarzis! Suco de cevadiss, Ã© um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Em pÃ© sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. \r\n \r\nPraesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. MÃ© faiz elementum girarzis, nisi eros vermeio. NÃ£o sou faixa preta cumpadi, sou preto inteiris, inteiris.', 55, 'TÃ©cnico em InformÃ¡tica', 'sadasdad', 'IFRJ', 'adsdasda', 25, 60, 1, 2027, 12, 2009, 12, 12, 1, 1, 1, 1, 1, 1, '1111100', NULL, '123123123', '123123123', '1211-12-12', '1212-12-12'),
 (1, 'Vinicius Saide', 'vinicius', '123', 'vinicius', NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, NULL, NULL, NULL, NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 (2, 'Thiago Muniz', 'thiago.muniz', '123', 'asdasda', NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, NULL, NULL, NULL, NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
@@ -113,8 +113,8 @@ INSERT INTO `agenda` (`codigo`, `nome`, `usuario`, `senha`, `email`, `data_cadas
 -- Estrutura da tabela `areas`
 --
 
-DROP TABLE IF EXISTS `areas`;
-CREATE TABLE `areas` (
+DROP TABLE IF EXISTS `FCO_areas`;
+CREATE TABLE `FCO_areas` (
   `codigo` int(11) NOT NULL,
   `segmento` int(2) NOT NULL,
   `area` int(2) NOT NULL,
@@ -133,8 +133,8 @@ CREATE TABLE `areas` (
 -- Estrutura da tabela `beneficios`
 --
 
-DROP TABLE IF EXISTS `beneficios`;
-CREATE TABLE `beneficios` (
+DROP TABLE IF EXISTS `FCO_beneficios`;
+CREATE TABLE `FCO_beneficios` (
   `codigo` int(11) NULL,
   `cesta_basica` tinyint(1) NULL,
   `vale_refeicao` tinyint(1) NULL,
@@ -154,8 +154,8 @@ CREATE TABLE `beneficios` (
 -- Estrutura da tabela `empregos`
 --
 
-DROP TABLE IF EXISTS `empregos`;
-CREATE TABLE `empregos` (
+DROP TABLE IF EXISTS `FCO_empregos`;
+CREATE TABLE `FCO_empregos` (
   `codigo` int(11) NOT NULL,
   `empresa` varchar(40) DEFAULT NULL,
   `segmento` int(2) DEFAULT NULL,
@@ -171,8 +171,8 @@ CREATE TABLE `empregos` (
 -- Estrutura da tabela `formacao`
 --
 
-DROP TABLE IF EXISTS `formacao`;
-CREATE TABLE `formacao` (
+DROP TABLE IF EXISTS `FCO_formacao`;
+CREATE TABLE `FCO_formacao` (
   `codigo` int(11) NOT NULL,
   `nome_curso` varchar(40) DEFAULT NULL,
   `instituto` varchar(40) DEFAULT NULL,
@@ -187,8 +187,8 @@ CREATE TABLE `formacao` (
 -- Estrutura da tabela `idiomas`
 --
 
-DROP TABLE IF EXISTS `idiomas`;
-CREATE TABLE `idiomas` (
+DROP TABLE IF EXISTS `FCO_idiomas`;
+CREATE TABLE `FCO_idiomas` (
   `codigo` int(11) NOT NULL,
   `idioma` int(2) DEFAULT NULL,
   `dialoga` int(1) DEFAULT NULL,
@@ -203,7 +203,7 @@ CREATE TABLE `idiomas` (
 --
 -- Indexes for table `agenda`
 --
-ALTER TABLE `agenda`
+ALTER TABLE `FCO_agenda`
   ADD PRIMARY KEY (`codigo`),
   ADD UNIQUE KEY `usuario` (`usuario`),
   ADD UNIQUE KEY `email` (`email`),
@@ -212,7 +212,7 @@ ALTER TABLE `agenda`
 --
 -- Indexes for table `areas`
 --
-ALTER TABLE `areas`
+ALTER TABLE `FCO_areas`
   ADD KEY `codigo` (`codigo`);
 
 --
@@ -222,7 +222,7 @@ ALTER TABLE `areas`
 --
 -- AUTO_INCREMENT for table `agenda`
 --
-ALTER TABLE `agenda`
+ALTER TABLE `FCO_agenda`
   MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
