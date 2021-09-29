@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `trabalheconosco`
+-- Database: `FCO_trabalheconosco`
 --
 DROP DATABASE `FCO_trabalheconosco`;
 CREATE DATABASE IF NOT EXISTS `FCO_trabalheconosco` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
@@ -26,7 +26,7 @@ USE `FCO_trabalheconosco`;
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `agenda`
+-- Estrutura da tabela `FCO_agenda`
 --
 
 DROP TABLE IF EXISTS `FCO_agenda`;
@@ -97,7 +97,7 @@ CREATE TABLE `FCO_agenda` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Extraindo dados da tabela `agenda`
+-- Extraindo dados da tabela `FCO_agenda`
 --
 
 INSERT INTO `FCO_agenda` (`codigo`, `nome`, `usuario`, `senha`, `email`, `data_cadastro`, `data_atualizacao`, `data_exclusao`, `rua`, `numero`, `complemento`, `bairro`, `cidade`, `cep`, `data_nascimento`, `cpf`, `nome_mae`, `nome_pai`, `nacionalidade`, `genero`, `objetivo_prof`, `estado_civil`, `possui_filhos`, `deficiencia`, `telefone`, `celular`, `linkedin`, `facebook`, `outros_sites`, `area_interesse1`, `area_interesse2`, `area_interesse3`, `aceita_viajar`, `aceita_mudar`, `turnos_interesse`, `regiao_distancia`, `pret_salarial`, `resumo_profissional`, `nivel_escolaridade`, `gradu1_nome_curso`, `gradu2_nome_curso`, `gradu1_instituto`, `gradu2_instituto`, `gradu1_nivel`, `gradu2_nivel`, `gradu1_forma_mes`, `gradu1_forma_ano`, `gradu2_forma_mes`, `gradu2_forma_ano`, `idioma1`, `idioma2`, `idioma1_leitura`, `idioma2_leitura`, `idioma1_escrita`, `idioma2_escrita`, `idioma1_dialoga`, `idioma2_dialoga`, `ult_emp_salario`, `ult_emp_beneficio`, `ult_emp_empresa`, `ult_emp_cargo`, `ult_emp_data_contrat`, `ult_emp_data_demiss`) VALUES
@@ -110,7 +110,7 @@ INSERT INTO `FCO_agenda` (`codigo`, `nome`, `usuario`, `senha`, `email`, `data_c
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `areas`
+-- Estrutura da tabela `FCO_areas`
 --
 
 DROP TABLE IF EXISTS `FCO_areas`;
@@ -124,13 +124,13 @@ CREATE TABLE `FCO_areas` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Extraindo dados da tabela `areas`
+-- Extraindo dados da tabela `FCO_areas`
 --
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `beneficios`
+-- Estrutura da tabela `FCO_beneficios`
 --
 
 DROP TABLE IF EXISTS `FCO_beneficios`;
@@ -145,13 +145,13 @@ CREATE TABLE `FCO_beneficios` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Extraindo dados da tabela `beneficios`
+-- Extraindo dados da tabela `FCO_beneficios`
 --
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `empregos`
+-- Estrutura da tabela `FCO_empregos`
 --
 
 DROP TABLE IF EXISTS `FCO_empregos`;
@@ -168,7 +168,7 @@ CREATE TABLE `FCO_empregos` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `formacao`
+-- Estrutura da tabela `FCO_formacao`
 --
 
 DROP TABLE IF EXISTS `FCO_formacao`;
@@ -184,7 +184,7 @@ CREATE TABLE `FCO_formacao` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `idiomas`
+-- Estrutura da tabela `FCO_idiomas`
 --
 
 DROP TABLE IF EXISTS `FCO_idiomas`;
@@ -201,7 +201,7 @@ CREATE TABLE `FCO_idiomas` (
 --
 
 --
--- Indexes for table `agenda`
+-- Indexes for table `FCO_agenda`
 --
 ALTER TABLE `FCO_agenda`
   ADD PRIMARY KEY (`codigo`),
@@ -210,7 +210,7 @@ ALTER TABLE `FCO_agenda`
   ADD UNIQUE KEY `codigo` (`codigo`);
 
 --
--- Indexes for table `areas`
+-- Indexes for table `FCO_areas`
 --
 ALTER TABLE `FCO_areas`
   ADD KEY `codigo` (`codigo`);
@@ -220,7 +220,7 @@ ALTER TABLE `FCO_areas`
 --
 
 --
--- AUTO_INCREMENT for table `agenda`
+-- AUTO_INCREMENT for table `FCO_agenda`
 --
 ALTER TABLE `FCO_agenda`
   MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
