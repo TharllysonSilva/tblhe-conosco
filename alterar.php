@@ -181,7 +181,7 @@
         
     include "conexao.php";
     if(!empty($query_update)){
-        $sql ="update agenda set ".$query_update." where codigo=".$codigo;
+        $sql ="update FCO_agenda set ".$query_update." where codigo=".$codigo;
         $resultado = mysqli_query($conexao,$sql);
     }
 	/*	

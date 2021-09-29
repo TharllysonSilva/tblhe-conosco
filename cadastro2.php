@@ -5,7 +5,7 @@ $senha      = $_POST['senha'];
 $senha2     = $_POST['senha2'];
 $email      = $_POST['email'];
 $connect    = mysqli_connect('localhost','user_cv','');
-$db         = mysqli_select_db($connect,'FCO_trabalheconosco');
+$db         = mysqli_select_db($connect,'trabalheconosco');
 $query_select = "SELECT usuario FROM FCO_agenda WHERE usuario = '$login'";
 $select     = mysqli_query($connect,$query_select);
 $array      = mysqli_fetch_array($select);
