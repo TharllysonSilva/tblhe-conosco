@@ -86,6 +86,7 @@ if ( $linha = mysqli_fetch_array($resultado)) {
 
 	  /*
   		coloca ponto e traço em $cep e cpf
+      Estruturação correta de campos contidos nas linhas.
 	  */
 
 	  $cep = $cep[0] . $cep[1] . "." . $cep[2] . $cep[3] . $cep[4] . "-" . $cep[5] . $cep[6] . $cep[7]; 
