@@ -556,6 +556,7 @@
                 <input class="form-control" id="ult_emp_salario" name="ult_emp_salario" maxlength="9" placeholder="00.000,00" type="text"> 
             </div>                    
         </div>
+        <!--Informações sobre beneficios do último serviço-->
         <div class="col-sm-6">
             <label class="col-sm-4 control-label">Beneficios:</label>
             <div class="col-sm-4">
