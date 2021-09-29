@@ -38,7 +38,7 @@ $_SG['usuario'] = 'user_cv'; // Usuário MySQL
 
 $_SG['senha'] = ''; // Senha MySQL
 
-$_SG['banco'] = 'FCO_trabalheconosco'; // Banco de dados MySQL
+$_SG['banco'] = 'trabalheconosco'; // Banco de dados MySQL
 
 $_SG['paginaLogin'] = 'login.php'; // Página de login
 
