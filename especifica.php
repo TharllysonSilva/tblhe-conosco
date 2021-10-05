@@ -18,7 +18,7 @@
             <?php
                 include "navbar.php";                
             ?>
-            <div id="principal" style="">
+            <div id="principal" >
                         <!-- Aqui entra o conte�do da p�gina -->
                 <div class="col-sm-12" style="padding-bottom: 7%;">
                     <div class="col-sm-4">
