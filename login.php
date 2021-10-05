@@ -42,24 +42,24 @@
                                         <!-- Container dos slides -->
                                         <div class="carousel-inner" role="listbox">
                                             <div class="item active">
-                                                <img src="imagens/banner_1.jpg" alt="" class="caroulsel_login" style="width:700px;">
+                                                <img src="" alt="" class="caroulsel_login" style="width:700px;">
                                                 <div class="carousel">
-                                                    <h3>Slide 1 &#8212; Normandia França</h3>  
-                                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                                    <h3> &#8212;</h3>  
+                                                    <p></p>
                                                 </div>
                                             </div>
                                             <div class="item">
-                                                <img src="imagens/banner_2.jpg" alt="" class="caroulsel_login" style="width:700px;">
+                                                <img src="" alt="" class="caroulsel_login" style="width:700px;">
                                                 <div class="carousel">
-                                                    <h3>Slide 2 &#8212; Normandia França</h3>  
-                                                    <p>Morbi eleifend, purus quis laoreet faucibus.</p>
+                                                    <h3> &#8212; </h3>  
+                                                    <p></p>
                                                 </div>
                                             </div>
                                             <div class="item">
-                                                <img src="imagens/banner_3.jpg" alt="" class="caroulsel_login" style="width:700px;">
+                                                <img src="" alt="" class="caroulsel_login" style="width:700px;">
                                                 <div class="carousel">
-                                                    <h3>Slide 3 &#8212; Normandia França</h3>
-                                                    <p>Phasellus libero felis, blandit nec</p>
+                                                    <h3> &#8212; </h3>
+                                                    <p></p>
                                                 </div>
                                             </div>
                                         </div> <!-- /.carousel-inner -->
