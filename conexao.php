@@ -19,7 +19,7 @@ $_SG['tabela'] = $tabela;
 $conexao = mysqli_connect($servidor, $usuario, $senha)
 	or die('Não foi possível conectar: ' . mysql_error());
 
-// seleciona o bano de dados agenda
+// seleciona o banco de dados agenda
 
 $select = mysqli_select_db($conexao,$banco);
 
