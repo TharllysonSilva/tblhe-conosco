@@ -41,25 +41,7 @@ protegePagina(); // Chama a função que protege a página
                         “Salvar” para que o sistema guarde as atualizações.
                     </p>
                 </div>
-                <!--
-                    <div class="col-sm-4">
-                        <h3 align=center>Conheça nossa Empresa</h3>
-                        <br/>
-                      
-                        <p style="text-align: justify;">
-                            Não conhece a SANKYU? Saiba mais da historia da empresa e sua filial de Volta Redonda na aba "SANKYU S.A.".
-                        </p>
-                       
-                        <p style="text-align: justify;">
-                            Fundada em 1972, a SANKYU S.A. é uma empresa do grupo SANKYU INC., multinacional de origem japonesa. No Brasil, a Sankyu atua principalmente em empresas siderúrgicas, além de prestar serviços em vários outros segmentos industriais, tais como obras de montagem eletromecânica em geral e manutenção de equipamentos industriais, apoio operacional e serviços de logística interna. Com matriz localizada na capital mineira, Belo Horizonte, a SANKYU S.A. possui importantes filiais, uma delas presente a mais de 20 anos na cidade de Volta Redonda                        
-                        </p>
-                        <a href="sankyu.php" class="fechar">
-                            <button type="button" value="" class="btn btn-info btnSaveBox">
-                                Saiba mais
-                            </button>
-                        </a>
-                    </div>
-                    -->
+              
                 <div class="col-sm-6">
                     <h3 align=center>Fale Conosco</h3>
                     <br />
