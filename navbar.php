@@ -4,7 +4,7 @@
 		<img class="img-responsive" src="imagens/traconosco.png" style="float: center;">
 		<div class="topnav" id="myTopnav">		
 			<a href="index.php"><span class="glyphicon glyphicon-home"></span> INICIO</a>
-            <a href="sankyu.php"><span class="glyphicon glyphicon-flag"></span> SANKYU S.A.</a>
+            <a href="sankyu.php"><span class="glyphicon glyphicon-flag"></span> Unifacema</a>
 			<a href="curriculo.php"><span class="glyphicon glyphicon-user"></span> CADASTRO</a>
             <a href="senha.php"><span class="glyphicon glyphicon-wrench"></span> ALTERAR SENHA</a>
 			<a href="excluir.php"><span class="glyphicon glyphicon-trash"></span> DESCADASTRO</a>
@@ -19,10 +19,10 @@ echo'
     <nav class="navbar navbar-default navbar-fixed-bottom">
         <div class="container-fluid">
           <div class="navbar-left">
-            <a href="http://www.sankyu.com.br" target="_blank"><img class="img-responsive" src="imagens/logonovo.png" style="height: 55px;float: left; padding-top: 10px;"></a>
+            <a href="" target="_blank"><img class="img-responsive" src="imagens/logonovo.png" style="height: 55px;float: left; padding-top: 10px;"></a>
           </div>     
           <div class="navbar-right">
-            <a href="http://webmail.sankyu.com.br" target="_blank"><img class="img-responsive" src="imagens/logoTI.png" style="height: 55px;float: right;"></a>
+            <a href="" target="_blank"><img class="img-responsive" src="imagens/logoTI.png" style="height: 55px;float: right;"></a>
           </div> 
         </div>
     </nav>
