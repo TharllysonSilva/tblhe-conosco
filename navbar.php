@@ -4,7 +4,7 @@
 		<img class="img-responsive" src="imagens/traconosco.png" style="float: center;">
 		<div class="topnav" id="myTopnav">		
 			<a href="index.php"><span class="glyphicon glyphicon-home"></span> INICIO</a>
-            <a href="sankyu.php"><span class="glyphicon glyphicon-flag"></span> Unifacema</a>
+            <a href="especifica.php"><span class="glyphicon glyphicon-flag"></span> Unifacema</a>
 			<a href="curriculo.php"><span class="glyphicon glyphicon-user"></span> CADASTRO</a>
             <a href="senha.php"><span class="glyphicon glyphicon-wrench"></span> ALTERAR SENHA</a>
 			<a href="excluir.php"><span class="glyphicon glyphicon-trash"></span> DESCADASTRO</a>
