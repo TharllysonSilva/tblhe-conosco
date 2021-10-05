@@ -186,7 +186,7 @@ input[type="checkbox"] {
 select,
 input[type="file"] {
     height: 30px;
-    *margin-top: 4px;
+    margin-top: 4px;
     line-height: 30px
 }
 
