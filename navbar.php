@@ -19,10 +19,10 @@ echo'
     <nav class="navbar navbar-default navbar-fixed-bottom">
         <div class="container-fluid">
           <div class="navbar-left">
-            <a href="" target="_blank"><img class="img-responsive" src="imagens/UNIFACEMA MARCAlogo.png.png" style="height: 55px;float: left; padding-top: 10px;"></a>
+            <a href="https://unifacema.edu.br/" target="_blank"><img class="img-responsive" src="imagens/UNIFACEMA MARCAlogo.png.png" style="height: 55px;float: left; padding-top: 10px;"></a>
           </div>     
           <div class="navbar-right">
-            <a href="" target="_blank"><img class="img-responsive" src="imagens/educa_v.png" style="height: 55px;float: right;"></a>
+            <a href="https://unifacema.edu.br/grupo-educa" target="_blank"><img class="img-responsive" src="imagens/educa_v.png" style="height: 55px;float: right;"></a>
           </div> 
         </div>
     </nav>
