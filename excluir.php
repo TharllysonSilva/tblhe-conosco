@@ -78,7 +78,7 @@
                                 /*
                                     Se existir a palavra "Erro" na resposta recebida, colocar
                                     "Erro de Exclusão" no título da janela. Se não existir,
-                                    colocar "Exclusão de Endereço" no título da janela
+                                    colocar "Exclusão de Cadastro" no título da janela
                                 */
                                 if (resposta.indexOf("Erro") != -1 ){
                                     $(".tituloJanela h3").text("Erro de Exclusão");
@@ -109,7 +109,7 @@
                <br/><br/>
                 <table align="center">
                     <tr>
-                        <th>Número de Cadastro</th>
+                        <th>Código de Cadastro</th>
                         <th>Nome</th>
                         <th style="text-align: center;">Aç&atilde;o</th>
                     </tr>	
