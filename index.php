@@ -20,7 +20,7 @@ protegePagina(); // Chama a função que protege a página
         <?php
         include "navbar.php";
         ?>
-        <div id="principal" style="">
+        <div id="principal" >
             <!-- Aqui entra o conteúdo da página -->
             <div class="col-sm-12" style="padding-bottom: 7%;">
                 <h2 align=center>Bem Vindo</h2>
