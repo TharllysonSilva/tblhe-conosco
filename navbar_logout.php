@@ -11,12 +11,12 @@
 		<div class="container-fluid">
 			<div class="navbar-left">
 				<a href="" target="_blank">
-					<img class="img-responsive" src="imagens/logonovo.png" style="height: 55px;float: left; padding-top: 10px;">
+					<img class="img-responsive" src="imagens/UNIFACEMA MARCA 2018-2.png" style="height: 55px;float: left; padding-top: 10px;">
 				</a>
 			</div>     
 			<div class="navbar-right">
 				<a href="" target="_blank">
-					<img class="img-responsive" src="imagens/logoTI.png" style="height: 55px;float: right;">
+					<img class="img-responsive" src="imagens/UNIFACEMA MARCA 2018.png" style="height: 55px;float: right;">
 				</a>
 			</div> 
 		</div>
