@@ -10,12 +10,12 @@
 	<nav class="navbar navbar-default navbar-fixed-bottom">
 		<div class="container-fluid">
 			<div class="navbar-left">
-				<a href="" target="_blank">
+				<a href="https://unifacema.edu.br/grupo-educa" target="_blank">
 					<img class="img-responsive" src="imagens/UNIFACEMA MARCA 2018-2.png" style="height: 55px;float: left; padding-top: 10px;">
 				</a>
 			</div>     
 			<div class="navbar-right">
-				<a href="" target="_blank">
+				<a href="https://unifacema.edu.br/grupo-educa" target="_blank">
 					<img class="img-responsive" src="imagens/UNIFACEMA MARCAlogo.png" style="height: 55px;float: right;">
 				</a>
 			</div> 
