@@ -28,15 +28,9 @@
                     <!---->      
                     </p>
                         <br/>
-                        <!--<h3>ORIGEM DO NOME</h3>-->
-                        <p style="text-align: justify;">
-                           <!-- -->
-                        </p>
-                    </div>
                 
                     <!--   <div class="col-sm-8">
-           
-
+                        
                     </div>-->
                 </div>
                 <br/><br/><br/>
