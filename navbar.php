@@ -22,7 +22,7 @@ echo'
             <a href="" target="_blank"><img class="img-responsive" src="imagens/UNIFACEMA MARCAlogo.png.png" style="height: 55px;float: left; padding-top: 10px;"></a>
           </div>     
           <div class="navbar-right">
-            <a href="" target="_blank"><img class="img-responsive" src="imagens/logoTI.png" style="height: 55px;float: right;"></a>
+            <a href="" target="_blank"><img class="img-responsive" src="imagens/educa_v.png" style="height: 55px;float: right;"></a>
           </div> 
         </div>
     </nav>
