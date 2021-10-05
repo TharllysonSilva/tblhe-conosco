@@ -16,7 +16,7 @@
 			</div>     
 			<div class="navbar-right">
 				<a href="" target="_blank">
-					<img class="img-responsive" src="imagens/UNIFACEMA MARCA 2018.png" style="height: 55px;float: right;">
+					<img class="img-responsive" src="imagens/UNIFACEMA MARCAlogo.png" style="height: 55px;float: right;">
 				</a>
 			</div> 
 		</div>

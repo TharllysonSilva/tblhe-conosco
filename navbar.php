@@ -19,7 +19,7 @@ echo'
     <nav class="navbar navbar-default navbar-fixed-bottom">
         <div class="container-fluid">
           <div class="navbar-left">
-            <a href="" target="_blank"><img class="img-responsive" src="imagens/logonovo.png" style="height: 55px;float: left; padding-top: 10px;"></a>
+            <a href="" target="_blank"><img class="img-responsive" src="imagens/UNIFACEMA MARCAlogo.png.png" style="height: 55px;float: left; padding-top: 10px;"></a>
           </div>     
           <div class="navbar-right">
             <a href="" target="_blank"><img class="img-responsive" src="imagens/logoTI.png" style="height: 55px;float: right;"></a>
