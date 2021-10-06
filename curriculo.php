@@ -20,7 +20,7 @@
             $(document).ready(function(){
 		/* 
 			Coloca o cursor no input com id="nome". Executado logo
-			após a página ser carregada
+			após a página ser carregada executando as mascaras corretas para cada campo
 		*/
 		$("#nome").focus();
 		$("#cep").mask("99.999-999");                
