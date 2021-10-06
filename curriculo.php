@@ -42,7 +42,7 @@
 		/* 
 			Função executada quando o botão com id="btnVoltar" for
 			clicado. O comando location.href executa o programa
-			alterar1.php 
+			alterar.php 
 		*/
 		$("#btnVoltar").click(function(){
 			location.href = "index.php";
